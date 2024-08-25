@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-manrope">
+    <main>
+      <!-- Header start here-->
+      <header class="px-28 py-5 flex items-center">
+        <!-- text content -->
+        <div class="w-1/2">
+          <h1 class="text-7xl font-bold">
+            It's good
+            <br />
+            tea time at The
+            <br />
+            Tea House
+          </h1>
+          <p class="text-lg text-[#777777] mt-5">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <div
+            class="mt-5 bg-gradient-to-r from-orange-500 to-red-600 text-white p-3 rounded-lg flex justify-between items-center w-fit gap-2"
+          >
+            <button>Explore More</button>
+            <div class="-rotate-45">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <!-- image content -->
+        <div class="w-1/2 items-center justify-center mx-auto relative">
+          <img class=" " src="images/banner.png" alt="" srcset="" />
+          <div
+            class="flex justify-center items-center gap-4 absolute p-4 rounded-xl border bottom-2 left-24 bg-white drop-shadow-lg"
+          >
+            <div class="text-3xl text-yellow-500">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div>
+              <h2 class="text-2xl font-bold">5.00</h2>
+              <p class="text-[#777777]">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Feature product section -->
+    </main>
+  </body>
+</html>
