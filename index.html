@@ -33,10 +33,10 @@
   <body class="font-manrope">
     <main>
       <!-- Header start here-->
-      <header class="px-28 py-5 flex items-center">
+      <header class="lg:px-28 px-20 pt-16 lg:flex-row flex flex-col">
         <!-- text content -->
-        <div class="w-1/2">
-          <h1 class="text-7xl font-bold">
+        <div class="">
+          <h1 class="lg:text-6xl text-5xl font-semibold">
             It's good
             <br />
             tea time at The
@@ -57,7 +57,7 @@
           </div>
         </div>
         <!-- image content -->
-        <div class="w-1/2 items-center justify-center mx-auto relative">
+        <div class="items-center justify-center mx-auto relative">
           <img class=" " src="images/banner.png" alt="" srcset="" />
           <div
             class="flex justify-center items-center gap-4 absolute p-4 rounded-xl border bottom-2 left-24 bg-white drop-shadow-lg"
@@ -76,7 +76,9 @@
       <div class="pt-32">
         <!-- title section -->
         <div>
-          <h3 class="text-3xl font-bold text-center mx-auto">Our Featured Products</h3>
+          <h3 class="text-3xl font-bold text-center mx-auto">
+            Our Featured Products
+          </h3>
           <p class="text-base text-gray-500 mx-auto text-center w-2/3 mt-5">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -85,31 +87,83 @@
           </p>
         </div>
         <!-- card section -->
-         <div class="grid grid-cols-4 px-28  gap-6 mt-20">
-            <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
-                <img class="mx-auto" src="images/tea-1.png" alt="">
-                <h2 class="text-center font-bold text-xl">Milk Tea</h2>
-                <p class="text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
-             </div>
-            <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
-                <img class="mx-auto" src="images/tea-2.png" alt="">
-                <h2 class="text-center font-bold text-xl">Black Tea</h2>
-                <p class="text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
-             </div>
-            <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
-                <img class="mx-auto" src="images/tea-3.png" alt="">
-                <h2 class="text-center font-bold text-xl">Lemon Tea</h2>
-                <p class="text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
-             </div>
-            <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
-                <img class="mx-auto" src="images/tea-4.png" alt="">
-                <h2 class="text-center font-bold text-xl">Green Tea</h2>
-                <p class="text-[#777777] text-center">Creamer could be replaced by fresh milk</p>
-             </div>
-         </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-28 gap-6 mt-20"
+        >
+          <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
+            <img class="mx-auto" src="images/tea-1.png" alt="" />
+            <h2 class="text-center font-bold text-xl">Milk Tea</h2>
+            <p class="text-[#777777] text-center">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
+            <img class="mx-auto" src="images/tea-2.png" alt="" />
+            <h2 class="text-center font-bold text-xl">Black Tea</h2>
+            <p class="text-[#777777] text-center">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
+            <img class="mx-auto" src="images/tea-3.png" alt="" />
+            <h2 class="text-center font-bold text-xl">Lemon Tea</h2>
+            <p class="text-[#777777] text-center">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div class="bg-gray-50 mx-auto p-4 rounded-2xl">
+            <img class="mx-auto" src="images/tea-4.png" alt="" />
+            <h2 class="text-center font-bold text-xl">Green Tea</h2>
+            <p class="text-[#777777] text-center">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+        </div>
       </div>
 
-      <!--  -->
+      <!-- Great Tea section -->
+      <section class="flex flex-col lg:flex-row px-32 mt-20 gap-12">
+        <!-- image content -->
+        <div class="grid grid-cols-2 grid-rows-3 gap-6">
+          <div
+            class="bg-gradient-to-r from-pink-200 to-pink-100 rounded-2xl"
+          ></div>
+          <div
+            class="bg-[#e6a5232a] flex items-center justify-center px-8  rounded-2xl row-span-2"
+          >
+            <img src="images/fresh-1.png" alt="" />
+          </div>
+          <div
+            class="bg-[#58763938] flex items-center justify-center px-8 rounded-2xl row-span-2"
+          >
+            <img src="images/fresh-2.png" alt="" />
+          </div>
+          <div
+            class="bg-gradient-to-r from-gray-300 to-gray-50 rounded-2xl"
+          ></div>
+        </div>
+        <!-- text content -->
+        <div class="flex flex-col lg:w-1/2">
+          <h3 class="font-bold text-5xl">Great Tea, Freshly Presented</h3>
+          <p class=" text-[#818181] mt-4">
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <p class="text-2xl font-extrabold text-[#1b1b1b] mt-4">Unique Taste</p>
+          <p class=" text-[#818181] mt-4">
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <p class="text-2xl font-extrabold text-[#1b1b1b] mt-4">Premium Quality</p>
+          <p class=" text-[#818181] mt-4">
+            Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
+        </div>
+      </section>
     </main>
   </body>
 </html>
